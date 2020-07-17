@@ -1,0 +1,143 @@
+@font-face{
+    font-family: "better";
+    src: url('better_4/better\ -\ Peronal\ Use.ttf');
+    font-size: 14px;  
+}
+
+@font-face{
+    font-family: "better";
+    src: url('better_4/better\ -\ Peronal\ Use.ttf');
+}
+
+body{
+    background-color: peachpuff;
+    font-family: "OpenSans";
+}
+
+.contenu{
+    width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "OpenSans";
+}
+
+header{
+    font-family: "better";
+    height: 150px;
+}
+
+h1{
+    text-align: center;
+    font-family: OpenSans;
+    font-size: 40px;
+    color: #ff9900;
+    vertical-align: middle;
+}
+
+nav{
+    color: black;
+    display: inline-block 100%;
+    background-color: peachpuff;
+    padding-right: 90px;
+    margin: 0px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.encours{
+    color: palevioletred;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+a:hover{
+    color: #ff9900;
+}
+
+.imageep{
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+    text-shadow: 2px 2px pink;
+    color: pink;
+}
+
+p{
+    text-align: center;
+    width: 750px;
+    padding: 10px;
+}
+.picture1{
+    float: left;
+}
+
+.picture2{
+    float: right;
+}
+
+.picture{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.picturesize{
+    width: 80%;
+}
+
+footer{
+    padding: 5%;
+}
+
+th{
+    color: white;
+    background-color: pink;
+    text-transform: uppercase;
+}
+
+form{
+    outline: none;
+    width: 300px;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: solid 4px #e6e6e6;
+}
+
+button{
+    text-align: center;
+}
+
+button:hover{
+    background-color: #ff9900;
+    color: white;
+    border: none;
+}
+
+button:active{
+    box-shadow: inset 1px 1px 1px 1px white;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    border: solid 2px #e6e6e6;
+}
+
+input:hover{
+    border:2px solid palevioletred;
+}
+
+.messagepart{
+    height: 60px;
+}
